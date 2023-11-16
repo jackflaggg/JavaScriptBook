@@ -4,8 +4,8 @@ function isEmpty(obj) {
     for(let index in obj){
         return false;
     }
-
-};
+    return true;
+}
 
 let human = {
     //age: 20,

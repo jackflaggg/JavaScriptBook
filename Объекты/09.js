@@ -7,5 +7,12 @@ function printNameOfUser(userArgument){
     console.log(userArgument.name);
 }
 
-printNameOfUser(user);
+let newUser = Object.assign({}, user);
+
+let newUserTwo = structuredClone(user);
+
+printNameOfUser(newUser);
+
 console.log(user.secondName);
+
+console.log(newUser)

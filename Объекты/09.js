@@ -8,3 +8,4 @@ function printNameOfUser(userArgument){
 };
 
 printNameOfUser(user);
+console.log(user.secondName);

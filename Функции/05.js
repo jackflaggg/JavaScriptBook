@@ -9,4 +9,5 @@ const vasya = messageCreator('Vasya');
 const kolya = messageCreator('Kolya');
 
 vasya('lloll');
+// функции высшего порядка
 kolya('holl');

@@ -14,4 +14,4 @@ function sumSalary(salaries) {
     return sum;
 };
 
-console.log(sumSalary(salaries))
+console.log(sumSalary(salaries));

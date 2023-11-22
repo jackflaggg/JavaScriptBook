@@ -1,0 +1,9 @@
+let a = 3
+let b = 6
+
+function sum(a, b) {
+    const c = a + b
+    console.log(c)
+}
+
+sum(a, b)

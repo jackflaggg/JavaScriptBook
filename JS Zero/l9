@@ -1,0 +1,11 @@
+let personOne = {
+    name: 'Rasul',
+    age: 22,
+    activity: true
+}
+
+let personTwo = JSON.parse(JSON.stringify(personOne))
+
+personTwo.age = 19
+console.table(personTwo)
+console.table(personOne)

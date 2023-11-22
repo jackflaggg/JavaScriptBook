@@ -6,7 +6,10 @@ const myCity = {
 myCity['article'] = false;
 myCity.article = true;
 
-let nameBar = 'Moscow';
+let nameBar = 'count';
 myCity['nameBar'] = true;
 
+
+myCity['foo'] = 123;
 console.log(myCity)
+console.log(myCity[nameBar])

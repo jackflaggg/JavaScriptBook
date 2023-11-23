@@ -1,11 +1,12 @@
 //Массив - упорядоченный набор данных, включает в себя несколько объектов
 
 const files = ['1.txt', '2.txt', '3.txt'];
+let newObj = {};
 files.property = 'value';
-Array.isArray(files);
+console.log(Array.isArray(newObj));
 
-for (let index = 0; index < files.length; index += 1){
-    console.log(files[index]);
+for (let i = 0; i < files.length; i ++){
+    console.log(i);
 }
 /*
 const foo = ['1.txt', 1, null, () => {}, {}, [], undefined, true];

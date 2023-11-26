@@ -14,6 +14,9 @@ let city = {
     },
     exportStr(){
         return `${this.name}=Sterlitamak\n${this.population}=10000000\n`
+    },
+    getCity() {
+        return this.getObj();
     }
 };
 
@@ -25,7 +28,22 @@ let cityTwo = {
     },
     exportStr(){
         return `${this.name}=UFA\n${this.population}=1000000\n`
-    }
+    },
+    getCity(){
+        return this.getObj();
+    },
 };
 
-console.log(city.exportStr())
+let obj = {
+    methodOne(){
+        return this;
+    },
+    methodTwo(){
+        return this;
+    },
+    methodThree(){
+        return "метод 3";
+    },
+}
+
+console.log(obj.methodOne().methodTwo().methodThree());

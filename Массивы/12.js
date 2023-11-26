@@ -6,4 +6,4 @@ function sum(arr, n) {
     }
 }
 
-console.log(sum([1, 2, 3], 2))
+console.log(sum([5, 2, 3], 2))

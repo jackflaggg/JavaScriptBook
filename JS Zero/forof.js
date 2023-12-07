@@ -8,3 +8,8 @@ for (const myStringElement of myString) {
 for (const string of myArray) {
     console.log(string)
 }
+// ДЛЯ МАССИВА ТОЛЬКО FOREACH
+
+myArray.forEach((elem, index) => {
+    console.log(elem, index)
+})
